@@ -38,7 +38,6 @@ public class HomePage extends BasePage {
     private WebElement  messageInput;
     @FindBy(css = "[value='Send']")
     private WebElement  sendButton;
-
     @FindBy(xpath = "//*[@id=\"wpcf7-f875-o1\"]/form/p[2]/span/span")
     private WebElement  emailValidationMessage;
 
@@ -105,19 +104,18 @@ public class HomePage extends BasePage {
         contactUsButton.click();
         return new HomePage(driver);
     }
-   // @Step("Click on Contactus Button to Open Company Page ")
-   // public CompanyPage clickOnCompanyButton() {
+    @Step("Click on Contactus Button to Open Company Page ")
+    public CompanyPage clickOnCompanyButton() {
        // waitElementToClickable(companyButton);
-       // clickByJavascript(companyButton);
-       // return new CompanyPage(driver);
-    //}
+        clickByJavascript(companyButton);
+        return new CompanyPage(driver);
+    }
 
 
-
-    //@Step("Navigate to Careers menu (from the top)")
+   // @Step("Navigate to Careers menu (from the top)")
    // public CareersPage clickOnCareerButton() {
-        //waitElementToClickable(careerButton);
-       // clickByJavascript(careerButton);
+       // waitElementToClickable(careerButton);
+        //clickByJavascript(careerButton);
        // return new CareersPage(driver);
    // }
 }
