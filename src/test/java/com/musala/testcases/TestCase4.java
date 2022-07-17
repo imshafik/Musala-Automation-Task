@@ -6,7 +6,7 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Story;
 import org.testng.annotations.Test;
 
-public class Case4Test extends BaseTest {
+public class TestCase4 extends BaseTest {
 
     @Story("Test Case 4")
     @Description("it will be open Musala website then navigate to Careers page then Filter the available positions by available cities (Sofia and Skopje) & Print in the console the list")

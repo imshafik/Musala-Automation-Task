@@ -9,7 +9,7 @@ import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Case3Test extends BaseTest {
+public class TestCase3 extends BaseTest {
 
     @Story("Test Case 3")
     @Description("it will be open Musala website then navigate to Careers page then Join Us Page ")
