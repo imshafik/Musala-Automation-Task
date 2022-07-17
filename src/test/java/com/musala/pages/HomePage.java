@@ -112,12 +112,12 @@ public class HomePage extends BasePage {
     }
 
 
-   // @Step("Navigate to Careers menu (from the top)")
-   // public CareersPage clickOnCareerButton() {
+    @Step("Navigate to Careers menu (from the top)")
+    public CareersPage clickOnCareerButton() {
        // waitElementToClickable(careerButton);
-        //clickByJavascript(careerButton);
-       // return new CareersPage(driver);
-   // }
+        clickByJavascript(careerButton);
+        return new CareersPage(driver);
+    }
 }
 
 
