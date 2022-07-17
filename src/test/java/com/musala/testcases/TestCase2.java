@@ -4,10 +4,12 @@ import com.musala.base.BaseTest;
 import com.musala.pages.CompanyPage;
 import com.musala.pages.HomePage;
 import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+@Feature("Test Case 2")
 public class TestCase2 extends BaseTest {
     @Story("Test Case 2")
     @Description("it will be open Musala website then navigate to company page then Verify the Opened Page")
@@ -22,7 +24,7 @@ public class TestCase2 extends BaseTest {
                 .loadWebSite()
                 .clickOnAcceptAllCookiesButton()
                 .clickOnCompanyButton();
-        Assert.assertEquals(CompanyPage.CompanyPageUrl(),
+        Assert.assertEquals(CompanyPage.getURL(),
                 "https://www.musala.com/company/");
     }
 
@@ -49,12 +51,10 @@ public class TestCase2 extends BaseTest {
         homePage
                 .loadWebSite()
                 .clickOnAcceptAllCookiesButton()
-                .clickOnCompanyButton();
-
-        companyPage.clickOnFaceBookIcon()
-                   .moveToOtherTab();
+                .clickOnCompanyButton()
+                .clickOnFaceBookIcon();
         Assert.assertEquals(companyPage.getURL(),
-                "https://web.facebook.com/MusalaSoft?fref=ts&_rdc=1&_rdr");
+                "https://www.facebook.com/MusalaSoft?fref=ts");
         Assert.assertTrue(companyPage.isMusalaProfilePicDsplayed());
     }
 }

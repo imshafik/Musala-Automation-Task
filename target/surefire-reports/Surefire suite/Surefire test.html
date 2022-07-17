@@ -1,0 +1,216 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jul 17 14:43:17 EET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>454 seconds (454945 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.musala.testcases.TestCase3.verifyMainSectionsDisplayed()'><b>verifyMainSectionsDisplayed</b><br>Test class: com.musala.testcases.TestCase3<br>Test method: Verify that the 4 main sections are Displayed on an open position page</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-BUGJDR2&apos;, ip: &apos;15.15.15.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ecadcb8b52e467e3b36207e45ddc7d40, executeScript {script=arguments[0].click(), args=[{ELEMENT=a11836f0-f64b-4291-89ab-c4ae2b87612f, element-6066-11e4-a52e-4f735466cecf=a11836f0-f64b-4291-89ab-c4ae2b87612f}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52426/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ecadcb8b52e467e3b36207e45ddc7d40
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:503)
+	at com.musala.base.BasePage.clickByJavascript(BasePage.java:26)
+	at com.musala.pages.HomePage.clickOnCareerButton(HomePage.java:124)
+	at com.musala.testcases.TestCase3.verifyMainSectionsDisplayed(TestCase3.java:40)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace665577058", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace665577058'><pre>org.openqa.selenium.WebDriverException: unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;DESKTOP-BUGJDR2&apos;, ip: &apos;15.15.15.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ecadcb8b52e467e3b36207e45ddc7d40, executeScript {script=arguments[0].click(), args=[{ELEMENT=a11836f0-f64b-4291-89ab-c4ae2b87612f, element-6066-11e4-a52e-4f735466cecf=a11836f0-f64b-4291-89ab-c4ae2b87612f}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52426/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ecadcb8b52e467e3b36207e45ddc7d40
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:503)
+	at com.musala.base.BasePage.clickByJavascript(BasePage.java:26)
+	at com.musala.pages.HomePage.clickOnCareerButton(HomePage.java:124)
+	at com.musala.testcases.TestCase3.verifyMainSectionsDisplayed(TestCase3.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>30</td>
+<td>com.musala.testcases.TestCase3@53dfacba</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.musala.testcases.TestCase1.ShouldBeAbleToValidateEmail()'><b>ShouldBeAbleToValidateEmail</b><br>Test class: com.musala.testcases.TestCase1<br>Test method: Verify that error message The e-mail address entered is invalid appears<br>Parameters: test..@@gmail...com..</td>
+<td></td>
+<td>34</td>
+<td>com.musala.testcases.TestCase1@6a4d7f76</td></tr>
+<tr>
+<td title='com.musala.testcases.TestCase1.ShouldBeAbleToValidateEmail()'><b>ShouldBeAbleToValidateEmail</b><br>Test class: com.musala.testcases.TestCase1<br>Test method: Verify that error message The e-mail address entered is invalid appears<br>Parameters: testtest.com</td>
+<td></td>
+<td>35</td>
+<td>com.musala.testcases.TestCase1@6a4d7f76</td></tr>
+<tr>
+<td title='com.musala.testcases.TestCase2.verifyLeadershipSection()'><b>verifyLeadershipSection</b><br>Test class: com.musala.testcases.TestCase2<br>Test method: Verify that the Leadership section is Displayed in Page</td>
+<td></td>
+<td>25</td>
+<td>com.musala.testcases.TestCase2@10ec523c</td></tr>
+<tr>
+<td title='com.musala.testcases.TestCase2.verifyFBURLAndPorfileImg()'><b>verifyFBURLAndPorfileImg</b><br>Test class: com.musala.testcases.TestCase2<br>Test method: Verify if User can navigate to Company Page then Facebook Page and profile picture Displayed</td>
+<td></td>
+<td>29</td>
+<td>com.musala.testcases.TestCase2@10ec523c</td></tr>
+<tr>
+<td title='com.musala.testcases.TestCase2.verifyCompanyPageURL()'><b>verifyCompanyPageURL</b><br>Test class: com.musala.testcases.TestCase2<br>Test method: Verify if User can navigate to Company Page</td>
+<td></td>
+<td>25</td>
+<td>com.musala.testcases.TestCase2@10ec523c</td></tr>
+<tr>
+<td title='com.musala.testcases.TestCase3.verifyApplyErrorMessagesAreShown()'><b>verifyApplyErrorMessagesAreShown</b><br>Test class: com.musala.testcases.TestCase3<br>Test method: Verify Error messages are shown for invalid data on Form</td>
+<td></td>
+<td>41</td>
+<td>com.musala.testcases.TestCase3@53dfacba</td></tr>
+<tr>
+<td title='com.musala.testcases.TestCase4.filterAndPrintAvailablePositionsByCity()'><b>filterAndPrintAvailablePositionsByCity</b><br>Test class: com.musala.testcases.TestCase4<br>Test method: Verify if system display and print the selected city positions</td>
+<td></td>
+<td>32</td>
+<td>com.musala.testcases.TestCase4@79767781</td></tr>
+<tr>
+<td title='com.musala.testcases.TestCase1.ShouldBeAbleToValidateEmail()'><b>ShouldBeAbleToValidateEmail</b><br>Test class: com.musala.testcases.TestCase1<br>Test method: Verify that error message The e-mail address entered is invalid appears<br>Parameters: testtest@gmailcom.</td>
+<td></td>
+<td>34</td>
+<td>com.musala.testcases.TestCase1@6a4d7f76</td></tr>
+<tr>
+<td title='com.musala.testcases.TestCase3.IsJoinUsPageOpened()'><b>IsJoinUsPageOpened</b><br>Test class: com.musala.testcases.TestCase3<br>Test method: Verify that user navigated to Join Us Page </td>
+<td></td>
+<td>31</td>
+<td>com.musala.testcases.TestCase3@53dfacba</td></tr>
+<tr>
+<td title='com.musala.testcases.TestCase3.verifyApplyButtonIsPresent()'><b>verifyApplyButtonIsPresent</b><br>Test class: com.musala.testcases.TestCase3<br>Test method: Verify that Apply button is presented at the bottom </td>
+<td></td>
+<td>35</td>
+<td>com.musala.testcases.TestCase3@53dfacba</td></tr>
+<tr>
+<td title='com.musala.testcases.TestCase1.ShouldBeAbleToValidateEmail()'><b>ShouldBeAbleToValidateEmail</b><br>Test class: com.musala.testcases.TestCase1<br>Test method: Verify that error message The e-mail address entered is invalid appears<br>Parameters: @gmail.com</td>
+<td></td>
+<td>34</td>
+<td>com.musala.testcases.TestCase1@6a4d7f76</td></tr>
+<tr>
+<td title='com.musala.testcases.TestCase1.ShouldBeAbleToValidateEmail()'><b>ShouldBeAbleToValidateEmail</b><br>Test class: com.musala.testcases.TestCase1<br>Test method: Verify that error message The e-mail address entered is invalid appears<br>Parameters: testtest</td>
+<td></td>
+<td>34</td>
+<td>com.musala.testcases.TestCase1@6a4d7f76</td></tr>
+</table><p>
+</body>
+</html>

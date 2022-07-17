@@ -11,7 +11,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import java.io.IOException;
 
-@Feature("Musala Assignment - Ibrahim Mohamed Shafik - 11-07-2022")
+@Feature("Test Case 1")
 public class TestCase1 extends BaseTest {
     @DataProvider(name="ExcelData")
     public Object[][] UserData() throws IOException

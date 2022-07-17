@@ -26,7 +26,6 @@ public class HomePage extends BasePage {
     @FindBy(linkText = "COMPANY")
     //@FindBy(xpath = "//div[@id='menu']//a[contains(.,'COMPANY')]")
     private WebElement companyButton;
-
     @FindBy(css = "#content > div.entry-header > div > div.image-overlay > div > h1")
     private WebElement companyHeader;
     @FindBy(xpath = "//div[@id='menu']//a[contains(.,'Careers')]")
@@ -56,6 +55,7 @@ public class HomePage extends BasePage {
     }
     @Step("Click on Accept Cookies")
     public HomePage clickOnAcceptAllCookiesButton() {
+
         acceptCookiesButton.click();
         return new HomePage(driver);
     }
@@ -92,38 +92,37 @@ public class HomePage extends BasePage {
     @Step("Click on Send button")
     public HomePage clickOnSendButton() throws InterruptedException {
         sendButton .click();
-        Thread.sleep(8000);
+        Thread.sleep(10000);
         return new HomePage(driver);
     }
 
     @Step("Get Error Message for invalid email")
     public String getValidationMessage() {
-        visibilityOfElement(emailValidationMessage);
+        visibilityOfElement(driver,emailValidationMessage);
         String invalidMessageText = emailValidationMessage.getText();
         return invalidMessageText;
     }
 
     @Step("Click on Contact us Button to Open Contact us Form")
     public HomePage clickOnContactUsButton() {
-       // waitElement(contactUsButton);
+        waitElementToClickable(driver,contactUsButton);
         contactUsButton.click();
         return new HomePage(driver);
     }
     @Step("Click on Contactus Button to Open Company Page ")
     public CompanyPage clickOnCompanyButton() {
-       // waitElementToClickable(companyButton);
-        waitElementToClickable(driver,60,companyButton);
+        waitElementToClickable(driver,companyButton);
         clickByJavascript(companyButton);
-        visibilityOfElement(companyHeader);
+        visibilityOfElement(driver,companyHeader);
         return new CompanyPage(driver);
     }
 
 
     @Step("Navigate to Careers menu (from the top)")
     public CareersPage clickOnCareerButton() {
-        waitElementToClickable(driver,60,careerButton);
+        waitElementToClickable(driver,careerButton);
         clickByJavascript(careerButton);
-        visibilityOfElement(careerHeader);
+        visibilityOfElement(driver,careerHeader);
         return new CareersPage(driver);
     }
 }

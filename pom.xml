@@ -24,7 +24,7 @@
                     </argLine>
                     <skipTests>false</skipTests>
                     <parallel>classes</parallel>
-                    <threadCount>2</threadCount>
+                    <threadCount>1</threadCount>
                 </configuration>
                 <dependencies>
                     <dependency>

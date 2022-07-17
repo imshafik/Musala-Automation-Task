@@ -1,1 +1,0 @@
-{"uuid":"264dc9e4-6062-4297-bab5-457d5b2f6f84","name":"com.musala.base.BaseTest.setup","children":["1f9ef755-1f42-4652-81d8-eb9aa7fd59ba"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1657992578234,"stop":1657992579695}],"afters":[],"start":1657992578233,"stop":1657992579695}

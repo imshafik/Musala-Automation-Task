@@ -5,10 +5,12 @@ import com.musala.pages.ApplyPositionPage;
 import com.musala.pages.CareersPage;
 import com.musala.pages.HomePage;
 import io.qameta.allure.Description;
+import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+@Feature("Test Case 3")
 public class TestCase3 extends BaseTest {
 
     @Story("Test Case 3")
@@ -62,8 +64,7 @@ public class TestCase3 extends BaseTest {
 
     @Test(priority=3,description="Verify Error messages are shown for invalid data on Form" )
     @Description("Verify shown error messages  The field is required and The e-mail address entered is invalid etc")
-    public void verifyApplyErrorMessagesAreShown()
-    {
+    public void verifyApplyErrorMessagesAreShown() throws InterruptedException {
         HomePage homePage = new HomePage(getDriver());
         CareersPage careerPage = new CareersPage(getDriver());
         homePage

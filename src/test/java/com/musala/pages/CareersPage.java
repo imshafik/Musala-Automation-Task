@@ -90,6 +90,7 @@ public class CareersPage extends BasePage {
 
     @Step("Verify that Apply button is presented at the bottom ")
         public boolean isApplyButtonPresented () {
+        waitElementToClickable(driver,applyButton);
         return applyButton.isDisplayed();
         }
 

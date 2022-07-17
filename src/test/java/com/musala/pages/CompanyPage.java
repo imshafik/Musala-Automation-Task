@@ -16,6 +16,8 @@ public class CompanyPage extends BasePage {
     //The Elements
     @FindBy(css = ".title")
      WebElement companyPageTitle ;
+    @FindBy(css = "#content > div.entry-header > div > div.image-overlay > div > h1")
+    private WebElement companyHeader;
     @FindBy(css = "[href='https://www.facebook.com/MusalaSoft?fref=ts']")
     private WebElement facebookIcon;
     @FindBy(css = "[preserveAspectRatio='xMidYMid slice']")
@@ -24,17 +26,18 @@ public class CompanyPage extends BasePage {
 
 
     //The Methods
-    @Step("Get the Current page")
-    public static String CompanyPageUrl() {
-        return driver.getCurrentUrl();
-    }
+
     @Step("Verify that the Leadership section is displayed inside Current Page")
     public boolean isThisSectionDisplayed(String searchWord) {
+        visibilityOfElement(driver,companyHeader);
         return driver.getPageSource().contains(searchWord);
     }
     @Step("Click on Facebook icon from footer to open Facebook page")
     public CompanyPage clickOnFaceBookIcon() {
-        facebookIcon.click();
+        waitElementToClickable(driver,facebookIcon);
+        visibilityOfElement(driver,facebookIcon);
+        BasePage.footerElements(3);
+        BasePage.switchWindow();
         return new CompanyPage(driver);
     }
 
@@ -59,12 +62,13 @@ public class CompanyPage extends BasePage {
         }
         return new CompanyPage(driver);
     }
-    @Step("Get the Musala’s Facebook Page URL")
-    public String getURL() {
+    @Step("Get the Current Page URL")
+    public static String getURL() {
         return driver.getCurrentUrl();
     }
     @Step("Verify that this is Musala’s Profile Pic is displayed in Facebook Page ")
     public boolean isMusalaProfilePicDsplayed() {
+        visibilityOfElement(driver,musalaFBProfilePic);
         hoverOnTheElement(musalaFBProfilePic);
         return musalaFBProfilePic.isDisplayed();
     }
