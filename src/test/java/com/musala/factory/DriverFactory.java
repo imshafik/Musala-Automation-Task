@@ -9,7 +9,7 @@ import java.time.Duration;
 public class DriverFactory {
     private  WebDriver driver ;
     public WebDriver initializeDriver() {
-        String browser = System.getProperty("browser" , "CHROME");
+        String browser = System.getProperty("browser" , "FIREFOX");
         switch (browser) {
             case "CHROME":
                 WebDriverManager.chromedriver().setup();
@@ -23,6 +23,7 @@ public class DriverFactory {
                 throw new RuntimeException("The browser in not supported");
         }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
         driver.manage().window().maximize();
         return driver;
     }

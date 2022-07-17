@@ -26,6 +26,10 @@ public class HomePage extends BasePage {
     @FindBy(linkText = "COMPANY")
     //@FindBy(xpath = "//div[@id='menu']//a[contains(.,'COMPANY')]")
     private WebElement companyButton;
+
+    @FindBy(css = "#content > div.entry-header > div > div.image-overlay > div > h1")
+    private WebElement companyheader;
+
     @FindBy(xpath = "//div[@id='menu']//a[contains(.,'Careers')]")
     private WebElement careerButton;
     @FindBy(name="your-name")
@@ -107,7 +111,9 @@ public class HomePage extends BasePage {
     @Step("Click on Contactus Button to Open Company Page ")
     public CompanyPage clickOnCompanyButton() {
        // waitElementToClickable(companyButton);
+        waitElementToClickable(driver,60,companyButton);
         clickByJavascript(companyButton);
+        visibilityOfElement(companyheader);
         return new CompanyPage(driver);
     }
 
