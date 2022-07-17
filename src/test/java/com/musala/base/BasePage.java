@@ -1,6 +1,5 @@
 package com.musala.base;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -26,10 +25,7 @@ public class BasePage {
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(time));
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
-    //public  static void waitForVisibility(WebDriver driver , int time , WebElement element) {
-       // WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(time));
-       // wait.until(ExpectedConditions.invisibilityOfElementLocated(element));
-   // }
+
     public static void visibilityOfElement(WebElement element) {
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(60));
         wait.until(ExpectedConditions.visibilityOf(element));

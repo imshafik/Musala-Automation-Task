@@ -28,10 +28,11 @@ public class HomePage extends BasePage {
     private WebElement companyButton;
 
     @FindBy(css = "#content > div.entry-header > div > div.image-overlay > div > h1")
-    private WebElement companyheader;
-
+    private WebElement companyHeader;
     @FindBy(xpath = "//div[@id='menu']//a[contains(.,'Careers')]")
     private WebElement careerButton;
+    @FindBy(css = "#content > div.entry-header > div > div.image-overlay > div > h1")
+    private WebElement careerHeader;
     @FindBy(name="your-name")
     private WebElement nameInput;
     @FindBy(name="your-email")
@@ -113,15 +114,16 @@ public class HomePage extends BasePage {
        // waitElementToClickable(companyButton);
         waitElementToClickable(driver,60,companyButton);
         clickByJavascript(companyButton);
-        visibilityOfElement(companyheader);
+        visibilityOfElement(companyHeader);
         return new CompanyPage(driver);
     }
 
 
     @Step("Navigate to Careers menu (from the top)")
     public CareersPage clickOnCareerButton() {
-       // waitElementToClickable(careerButton);
+        waitElementToClickable(driver,60,careerButton);
         clickByJavascript(careerButton);
+        visibilityOfElement(careerHeader);
         return new CareersPage(driver);
     }
 }
