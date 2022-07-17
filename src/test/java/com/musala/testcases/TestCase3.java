@@ -21,7 +21,6 @@ public class TestCase3 extends BaseTest {
         CareersPage careerPage = new CareersPage(getDriver());
         homePage
                 .loadWebSite()
-                .clickOnAcceptAllCookiesButton()
                 .clickOnCareerButton()
                 .clickOnPositionsButton();
         Assert.assertEquals(careerPage.getUrl(),
@@ -36,7 +35,6 @@ public class TestCase3 extends BaseTest {
         CareersPage careerPage = new CareersPage(getDriver());
         homePage
                 .loadWebSite()
-                .clickOnAcceptAllCookiesButton()
                 .clickOnCareerButton()
                 .clickOnPositionsButton()
                 .selectLocationBy("Anywhere")
@@ -53,7 +51,6 @@ public class TestCase3 extends BaseTest {
         CareersPage careerPage = new CareersPage(getDriver());
         homePage
                 .loadWebSite()
-                .clickOnAcceptAllCookiesButton()
                 .clickOnCareerButton()
                 .clickOnPositionsButton()
                 .selectLocationBy("Anywhere")
@@ -69,7 +66,6 @@ public class TestCase3 extends BaseTest {
         CareersPage careerPage = new CareersPage(getDriver());
         homePage
                 .loadWebSite()
-                .clickOnAcceptAllCookiesButton()
                 .clickOnCareerButton()
                 .clickOnPositionsButton()
                 .selectLocationBy("Anywhere")

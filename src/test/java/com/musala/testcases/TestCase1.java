@@ -28,7 +28,6 @@ public class TestCase1 extends BaseTest {
         HomePage homePage = new HomePage(getDriver());
         homePage
                 .loadWebSite()
-                .clickOnAcceptAllCookiesButton()
                 .scrollDown()
                 .clickOnContactUsButton()
                 .fillNameData("Ibrahim Shafik")

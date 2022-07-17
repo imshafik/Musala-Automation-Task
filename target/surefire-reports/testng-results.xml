@@ -1,43 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+<testng-results ignored="0" total="13" passed="4" failed="9" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-17T14:43:17 EET" name="Surefire suite" finished-at="2022-07-17T14:50:52 EET" duration-ms="454945">
+  <suite started-at="2022-07-17T15:18:34 EET" name="Surefire suite" finished-at="2022-07-17T15:28:50 EET" duration-ms="616375">
     <groups>
     </groups>
-    <test started-at="2022-07-17T14:43:17 EET" name="Surefire test" finished-at="2022-07-17T14:50:52 EET" duration-ms="454945">
+    <test started-at="2022-07-17T15:18:34 EET" name="Surefire test" finished-at="2022-07-17T15:28:50 EET" duration-ms="616375">
       <class name="com.musala.testcases.TestCase4">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase4@79767781]" started-at="2022-07-17T14:50:18 EET" name="setup" finished-at="2022-07-17T14:50:19 EET" duration-ms="1332" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase4@79767781]" started-at="2022-07-17T15:23:04 EET" name="setup" finished-at="2022-07-17T15:23:06 EET" duration-ms="1355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="filterAndPrintAvailablePositionsByCity()[pri:0, instance:com.musala.testcases.TestCase4@79767781]" started-at="2022-07-17T14:50:19 EET" name="filterAndPrintAvailablePositionsByCity" description="Verify if system display and print the selected city positions" finished-at="2022-07-17T14:50:51 EET" duration-ms="32168" status="PASS">
+        <test-method signature="filterAndPrintAvailablePositionsByCity()[pri:0, instance:com.musala.testcases.TestCase4@79767781]" started-at="2022-07-17T15:23:06 EET" name="filterAndPrintAvailablePositionsByCity" description="Verify if system display and print the selected city positions" finished-at="2022-07-17T15:24:52 EET" duration-ms="106986" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#wt\-cli\-accept\-all\-btn"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [79eb5553b948eddde1b6f3955810ecd0, findElement {using=id, value=wt-cli-accept-all-btn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55349/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79eb5553b948eddde1b6f3955810ecd0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#wt\-cli\-accept\-all\-btn"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [79eb5553b948eddde1b6f3955810ecd0, findElement {using=id, value=wt-cli-accept-all-btn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55349/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79eb5553b948eddde1b6f3955810ecd0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy21.click(Unknown Source)
+at com.musala.pages.HomePage.clickOnAcceptAllCookiesButton(HomePage.java:59)
+at com.musala.testcases.TestCase4.filterAndPrintAvailablePositionsByCity(TestCase4.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterAndPrintAvailablePositionsByCity -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase4@79767781]" started-at="2022-07-17T14:50:51 EET" name="teardown" finished-at="2022-07-17T14:50:52 EET" duration-ms="659" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase4@79767781]" started-at="2022-07-17T15:24:53 EET" name="teardown" finished-at="2022-07-17T15:24:53 EET" duration-ms="586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.musala.testcases.TestCase4 -->
       <class name="com.musala.testcases.TestCase3">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T14:47:52 EET" name="setup" finished-at="2022-07-17T14:47:53 EET" duration-ms="1230" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T15:22:04 EET" name="setup" finished-at="2022-07-17T15:22:05 EET" duration-ms="1456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="IsJoinUsPageOpened()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T14:47:53 EET" name="IsJoinUsPageOpened" description="Verify that user navigated to Join Us Page " finished-at="2022-07-17T14:48:24 EET" duration-ms="31120" status="PASS">
+        <test-method signature="IsJoinUsPageOpened()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T15:22:05 EET" name="IsJoinUsPageOpened" description="Verify that user navigated to Join Us Page " finished-at="2022-07-17T15:26:23 EET" duration-ms="257699" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: #content > div.entry-header > div > div.image-overlay > div > h1' (tried for 100 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: #content > div.entry-header > div > div.image-overlay > div > h1' (tried for 100 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at com.musala.base.BasePage.visibilityOfElement(BasePage.java:36)
+at com.musala.pages.HomePage.clickOnCareerButton(HomePage.java:125)
+at com.musala.testcases.TestCase3.IsJoinUsPageOpened(TestCase3.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#content > div.entry-header > div > div.image-overlay > div > h1"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [528df151efe7df424cedb87fe16e44a5, findElement {using=css selector, value=#content > div.entry-header > div > div.image-overlay > div > h1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55246/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 528df151efe7df424cedb87fe16e44a5
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 18 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IsJoinUsPageOpened -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T14:48:24 EET" name="teardown" finished-at="2022-07-17T14:48:25 EET" duration-ms="605" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T15:26:23 EET" name="teardown" finished-at="2022-07-17T15:26:24 EET" duration-ms="593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T14:48:25 EET" name="setup" finished-at="2022-07-17T14:48:26 EET" duration-ms="1300" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T15:26:24 EET" name="setup" finished-at="2022-07-17T15:26:25 EET" duration-ms="1276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyMainSectionsDisplayed()[pri:1, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T14:48:26 EET" name="verifyMainSectionsDisplayed" description="Verify that the 4 main sections are Displayed on an open position page" finished-at="2022-07-17T14:48:56 EET" duration-ms="30196" status="FAIL">
+        <test-method signature="verifyMainSectionsDisplayed()[pri:1, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T15:26:25 EET" name="verifyMainSectionsDisplayed" description="Verify that the 4 main sections are Displayed on an open position page" finished-at="2022-07-17T15:27:52 EET" duration-ms="87505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMainSectionsDisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T15:27:52 EET" name="teardown" finished-at="2022-07-17T15:27:53 EET" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T15:27:53 EET" name="setup" finished-at="2022-07-17T15:27:54 EET" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyApplyButtonIsPresent()[pri:2, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T15:27:54 EET" name="verifyApplyButtonIsPresent" description="Verify that Apply button is presented at the bottom " finished-at="2022-07-17T15:28:13 EET" duration-ms="18836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplyButtonIsPresent -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T15:28:13 EET" name="teardown" finished-at="2022-07-17T15:28:14 EET" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T15:28:14 EET" name="setup" finished-at="2022-07-17T15:28:15 EET" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyApplyErrorMessagesAreShown()[pri:3, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T15:28:15 EET" name="verifyApplyErrorMessagesAreShown" description="Verify Error messages are shown for invalid data on Form" finished-at="2022-07-17T15:28:49 EET" duration-ms="34500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplyErrorMessagesAreShown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T15:28:49 EET" name="teardown" finished-at="2022-07-17T15:28:50 EET" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.musala.testcases.TestCase3 -->
+      <class name="com.musala.testcases.TestCase2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T15:18:34 EET" name="setup" finished-at="2022-07-17T15:18:38 EET" duration-ms="3879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCompanyPageURL()[pri:0, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T15:18:38 EET" name="verifyCompanyPageURL" description="Verify if User can navigate to Company Page" finished-at="2022-07-17T15:19:12 EET" duration-ms="34504" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: unexpected command response
@@ -45,9 +207,9 @@
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ecadcb8b52e467e3b36207e45ddc7d40, executeScript {script=arguments[0].click(), args=[{ELEMENT=a11836f0-f64b-4291-89ab-c4ae2b87612f, element-6066-11e4-a52e-4f735466cecf=a11836f0-f64b-4291-89ab-c4ae2b87612f}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52426/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ecadcb8b52e467e3b36207e45ddc7d40]]>
+Command: [897ae097c7c2af4eefc64aebf971a019, executeScript {script=arguments[0].click(), args=[{ELEMENT=462080df-01e1-45c5-9c11-99088dd5dfe5, element-6066-11e4-a52e-4f735466cecf=462080df-01e1-45c5-9c11-99088dd5dfe5}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54773}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54773/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 897ae097c7c2af4eefc64aebf971a019]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unexpected command response
@@ -55,9 +217,9 @@ Session ID: ecadcb8b52e467e3b36207e45ddc7d40]]>
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
 System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ecadcb8b52e467e3b36207e45ddc7d40, executeScript {script=arguments[0].click(), args=[{ELEMENT=a11836f0-f64b-4291-89ab-c4ae2b87612f, element-6066-11e4-a52e-4f735466cecf=a11836f0-f64b-4291-89ab-c4ae2b87612f}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52426/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: ecadcb8b52e467e3b36207e45ddc7d40
+Command: [897ae097c7c2af4eefc64aebf971a019, executeScript {script=arguments[0].click(), args=[{ELEMENT=462080df-01e1-45c5-9c11-99088dd5dfe5, element-6066-11e4-a52e-4f735466cecf=462080df-01e1-45c5-9c11-99088dd5dfe5}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54773}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54773/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 897ae097c7c2af4eefc64aebf971a019
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -72,8 +234,8 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
 at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:503)
 at com.musala.base.BasePage.clickByJavascript(BasePage.java:26)
-at com.musala.pages.HomePage.clickOnCareerButton(HomePage.java:124)
-at com.musala.testcases.TestCase3.verifyMainSectionsDisplayed(TestCase3.java:40)
+at com.musala.pages.HomePage.clickOnCompanyButton(HomePage.java:115)
+at com.musala.testcases.TestCase2.verifyCompanyPageURL(TestCase2.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -94,80 +256,170 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyMainSectionsDisplayed -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T14:48:56 EET" name="teardown" finished-at="2022-07-17T14:48:57 EET" duration-ms="611" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T14:48:57 EET" name="setup" finished-at="2022-07-17T14:48:59 EET" duration-ms="1869" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyApplyButtonIsPresent()[pri:2, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T14:48:59 EET" name="verifyApplyButtonIsPresent" description="Verify that Apply button is presented at the bottom " finished-at="2022-07-17T14:49:34 EET" duration-ms="35252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyApplyButtonIsPresent -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T14:49:34 EET" name="teardown" finished-at="2022-07-17T14:49:35 EET" duration-ms="610" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T14:49:35 EET" name="setup" finished-at="2022-07-17T14:49:36 EET" duration-ms="1287" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyApplyErrorMessagesAreShown()[pri:3, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T14:49:36 EET" name="verifyApplyErrorMessagesAreShown" description="Verify Error messages are shown for invalid data on Form" finished-at="2022-07-17T14:50:17 EET" duration-ms="41057" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyApplyErrorMessagesAreShown -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase3@53dfacba]" started-at="2022-07-17T14:50:17 EET" name="teardown" finished-at="2022-07-17T14:50:18 EET" duration-ms="668" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.musala.testcases.TestCase3 -->
-      <class name="com.musala.testcases.TestCase2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T14:46:25 EET" name="setup" finished-at="2022-07-17T14:46:26 EET" duration-ms="1319" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyCompanyPageURL()[pri:0, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T14:46:26 EET" name="verifyCompanyPageURL" description="Verify if User can navigate to Company Page" finished-at="2022-07-17T14:46:52 EET" duration-ms="25625" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- verifyCompanyPageURL -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T14:46:52 EET" name="teardown" finished-at="2022-07-17T14:46:53 EET" duration-ms="649" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T15:19:12 EET" name="teardown" finished-at="2022-07-17T15:19:18 EET" duration-ms="5179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T14:46:53 EET" name="setup" finished-at="2022-07-17T14:46:54 EET" duration-ms="1359" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T15:19:18 EET" name="setup" finished-at="2022-07-17T15:19:19 EET" duration-ms="1518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLeadershipSection()[pri:1, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T14:46:54 EET" name="verifyLeadershipSection" description="Verify that the Leadership section is Displayed in Page" finished-at="2022-07-17T14:47:20 EET" duration-ms="25582" status="PASS">
+        <test-method signature="verifyLeadershipSection()[pri:1, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T15:19:19 EET" name="verifyLeadershipSection" description="Verify that the Leadership section is Displayed in Page" finished-at="2022-07-17T15:21:25 EET" duration-ms="125480" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d51ce0cf949e2e876a82aec30c422deb, clickElement {id=42dc61ae-0fe7-4a56-badd-4ec3391c7b58}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54882/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d51ce0cf949e2e876a82aec30c422deb)] -> id: wt-cli-accept-all-btn]
+Session ID: d51ce0cf949e2e876a82aec30c422deb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d51ce0cf949e2e876a82aec30c422deb, clickElement {id=42dc61ae-0fe7-4a56-badd-4ec3391c7b58}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54882/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d51ce0cf949e2e876a82aec30c422deb)] -> id: wt-cli-accept-all-btn]
+Session ID: d51ce0cf949e2e876a82aec30c422deb
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy21.click(Unknown Source)
+at com.musala.pages.HomePage.clickOnAcceptAllCookiesButton(HomePage.java:59)
+at com.musala.testcases.TestCase2.verifyLeadershipSection(TestCase2.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLeadershipSection -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T14:47:20 EET" name="teardown" finished-at="2022-07-17T14:47:20 EET" duration-ms="600" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T15:21:25 EET" name="teardown" finished-at="2022-07-17T15:21:25 EET" duration-ms="663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T14:47:20 EET" name="setup" finished-at="2022-07-17T14:47:22 EET" duration-ms="1264" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T15:21:25 EET" name="setup" finished-at="2022-07-17T15:21:26 EET" duration-ms="1263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyFBURLAndPorfileImg()[pri:2, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T14:47:22 EET" name="verifyFBURLAndPorfileImg" description="Verify if User can navigate to Company Page then Facebook Page and profile picture Displayed" finished-at="2022-07-17T14:47:51 EET" duration-ms="29831" status="PASS">
+        <test-method signature="verifyFBURLAndPorfileImg()[pri:2, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T15:21:26 EET" name="verifyFBURLAndPorfileImg" description="Verify if User can navigate to Company Page then Facebook Page and profile picture Displayed" finished-at="2022-07-17T15:22:03 EET" duration-ms="36715" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7a393252350fdc82f2576b326eb4300, isElementDisplayed {id=338136ee-5bd0-4de8-85f8-d2c24307df4c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55158/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f7a393252350fdc82f2576b326eb4300)] -> css selector: #content > div.entry-header > div > div.image-overlay > div > h1]
+Session ID: f7a393252350fdc82f2576b326eb4300]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7a393252350fdc82f2576b326eb4300, isElementDisplayed {id=338136ee-5bd0-4de8-85f8-d2c24307df4c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55158/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f7a393252350fdc82f2576b326eb4300)] -> css selector: #content > div.entry-header > div > div.image-overlay > div > h1]
+Session ID: f7a393252350fdc82f2576b326eb4300
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+at com.musala.base.BasePage.visibilityOfElement(BasePage.java:36)
+at com.musala.pages.HomePage.clickOnCompanyButton(HomePage.java:116)
+at com.musala.testcases.TestCase2.verifyFBURLAndPorfileImg(TestCase2.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFBURLAndPorfileImg -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T14:47:51 EET" name="teardown" finished-at="2022-07-17T14:47:52 EET" duration-ms="608" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase2@10ec523c]" started-at="2022-07-17T15:22:03 EET" name="teardown" finished-at="2022-07-17T15:22:04 EET" duration-ms="614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.musala.testcases.TestCase2 -->
       <class name="com.musala.testcases.TestCase1">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:43:19 EET" name="setup" finished-at="2022-07-17T14:43:22 EET" duration-ms="3581" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:18:35 EET" name="setup" finished-at="2022-07-17T15:18:38 EET" duration-ms="2484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ShouldBeAbleToValidateEmail(java.lang.String)[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:43:22 EET" name="ShouldBeAbleToValidateEmail" description="Verify that error message The e-mail address entered is invalid appears" data-provider="ExcelData" finished-at="2022-07-17T14:43:57 EET" duration-ms="34951" status="PASS">
+        <test-method signature="ShouldBeAbleToValidateEmail(java.lang.String)[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:18:38 EET" name="ShouldBeAbleToValidateEmail" description="Verify that error message The e-mail address entered is invalid appears" data-provider="ExcelData" finished-at="2022-07-17T15:19:17 EET" duration-ms="39164" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -175,18 +427,78 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[invalid session id
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [897ae097c7c2af4eefc64aebf971a019, clearElement {id=75e3d2fa-066b-4936-9f4a-ba0145eaff06}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54773}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54773/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (897ae097c7c2af4eefc64aebf971a019)] -> name: your-name]
+Session ID: 897ae097c7c2af4eefc64aebf971a019]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [897ae097c7c2af4eefc64aebf971a019, clearElement {id=75e3d2fa-066b-4936-9f4a-ba0145eaff06}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54773}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54773/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (897ae097c7c2af4eefc64aebf971a019)] -> name: your-name]
+Session ID: 897ae097c7c2af4eefc64aebf971a019
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy21.clear(Unknown Source)
+at com.musala.pages.HomePage.fillNameData(HomePage.java:70)
+at com.musala.testcases.TestCase1.ShouldBeAbleToValidateEmail(TestCase1.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShouldBeAbleToValidateEmail -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:43:57 EET" name="teardown" finished-at="2022-07-17T14:43:58 EET" duration-ms="648" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:19:17 EET" name="teardown" finished-at="2022-07-17T15:19:18 EET" duration-ms="624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:43:58 EET" name="setup" finished-at="2022-07-17T14:43:59 EET" duration-ms="1270" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:19:18 EET" name="setup" finished-at="2022-07-17T15:19:19 EET" duration-ms="1619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ShouldBeAbleToValidateEmail(java.lang.String)[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:43:59 EET" name="ShouldBeAbleToValidateEmail" description="Verify that error message The e-mail address entered is invalid appears" data-provider="ExcelData" finished-at="2022-07-17T14:44:34 EET" duration-ms="34950" status="PASS">
+        <test-method signature="ShouldBeAbleToValidateEmail(java.lang.String)[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:19:19 EET" name="ShouldBeAbleToValidateEmail" description="Verify that error message The e-mail address entered is invalid appears" data-provider="ExcelData" finished-at="2022-07-17T15:21:35 EET" duration-ms="135713" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -197,15 +509,15 @@ at java.base/java.lang.Thread.run(Thread.java:832)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShouldBeAbleToValidateEmail -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:44:34 EET" name="teardown" finished-at="2022-07-17T14:44:35 EET" duration-ms="588" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:21:35 EET" name="teardown" finished-at="2022-07-17T15:21:36 EET" duration-ms="646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:44:35 EET" name="setup" finished-at="2022-07-17T14:44:36 EET" duration-ms="1303" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:21:36 EET" name="setup" finished-at="2022-07-17T15:21:37 EET" duration-ms="1391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ShouldBeAbleToValidateEmail(java.lang.String)[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:44:36 EET" name="ShouldBeAbleToValidateEmail" description="Verify that error message The e-mail address entered is invalid appears" data-provider="ExcelData" finished-at="2022-07-17T14:45:11 EET" duration-ms="34673" status="PASS">
+        <test-method signature="ShouldBeAbleToValidateEmail(java.lang.String)[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:21:37 EET" name="ShouldBeAbleToValidateEmail" description="Verify that error message The e-mail address entered is invalid appears" data-provider="ExcelData" finished-at="2022-07-17T15:22:03 EET" duration-ms="26099" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -213,18 +525,82 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7a393252350fdc82f2576b326eb4300, sendKeysToElement {id=f26ad71b-5305-4000-bfe0-d90457dfba17, value=[Ljava.lang.CharSequence;@55b823b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55158/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f7a393252350fdc82f2576b326eb4300)] -> name: your-subject]
+Session ID: f7a393252350fdc82f2576b326eb4300]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7a393252350fdc82f2576b326eb4300, sendKeysToElement {id=f26ad71b-5305-4000-bfe0-d90457dfba17, value=[Ljava.lang.CharSequence;@55b823b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55158/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f7a393252350fdc82f2576b326eb4300)] -> name: your-subject]
+Session ID: f7a393252350fdc82f2576b326eb4300
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at com.sun.proxy.$Proxy21.sendKeys(Unknown Source)
+at com.musala.pages.HomePage.fillSubject(HomePage.java:83)
+at com.musala.testcases.TestCase1.ShouldBeAbleToValidateEmail(TestCase1.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShouldBeAbleToValidateEmail -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:45:11 EET" name="teardown" finished-at="2022-07-17T14:45:11 EET" duration-ms="635" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:22:03 EET" name="teardown" finished-at="2022-07-17T15:22:04 EET" duration-ms="613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:45:11 EET" name="setup" finished-at="2022-07-17T14:45:13 EET" duration-ms="1255" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:22:04 EET" name="setup" finished-at="2022-07-17T15:22:05 EET" duration-ms="1348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ShouldBeAbleToValidateEmail(java.lang.String)[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:45:13 EET" name="ShouldBeAbleToValidateEmail" description="Verify that error message The e-mail address entered is invalid appears" data-provider="ExcelData" finished-at="2022-07-17T14:45:48 EET" duration-ms="34990" status="PASS">
+        <test-method signature="ShouldBeAbleToValidateEmail(java.lang.String)[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:22:05 EET" name="ShouldBeAbleToValidateEmail" description="Verify that error message The e-mail address entered is invalid appears" data-provider="ExcelData" finished-at="2022-07-17T15:22:19 EET" duration-ms="14063" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -232,18 +608,71 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: Unable to receive message from renderer
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58744d5ab8116d7cc06b5b1662855dda, get {url=http://www.musala.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55244/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 58744d5ab8116d7cc06b5b1662855dda]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58744d5ab8116d7cc06b5b1662855dda, get {url=http://www.musala.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55244/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 58744d5ab8116d7cc06b5b1662855dda
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at com.musala.pages.HomePage.loadWebSite(HomePage.java:53)
+at com.musala.testcases.TestCase1.ShouldBeAbleToValidateEmail(TestCase1.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShouldBeAbleToValidateEmail -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:45:48 EET" name="teardown" finished-at="2022-07-17T14:45:48 EET" duration-ms="606" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:22:19 EET" name="teardown" finished-at="2022-07-17T15:22:20 EET" duration-ms="637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:45:48 EET" name="setup" finished-at="2022-07-17T14:45:49 EET" duration-ms="1291" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:22:20 EET" name="setup" finished-at="2022-07-17T15:23:03 EET" duration-ms="42902" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ShouldBeAbleToValidateEmail(java.lang.String)[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:45:49 EET" name="ShouldBeAbleToValidateEmail" description="Verify that error message The e-mail address entered is invalid appears" data-provider="ExcelData" finished-at="2022-07-17T14:46:25 EET" duration-ms="35105" status="PASS">
+        <test-method signature="ShouldBeAbleToValidateEmail(java.lang.String)[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:23:03 EET" name="ShouldBeAbleToValidateEmail" description="Verify that error message The e-mail address entered is invalid appears" data-provider="ExcelData" finished-at="2022-07-17T15:23:03 EET" duration-ms="607" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -251,10 +680,63 @@ at java.base/java.lang.Thread.run(Thread.java:832)
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17316b687b683eecfdf74180b5229dff, get {url=http://www.musala.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55332/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17316b687b683eecfdf74180b5229dff]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17316b687b683eecfdf74180b5229dff, get {url=http://www.musala.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55332/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17316b687b683eecfdf74180b5229dff
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+at com.musala.pages.HomePage.loadWebSite(HomePage.java:53)
+at com.musala.testcases.TestCase1.ShouldBeAbleToValidateEmail(TestCase1.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShouldBeAbleToValidateEmail -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T14:46:25 EET" name="teardown" finished-at="2022-07-17T14:46:25 EET" duration-ms="613" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.musala.testcases.TestCase1@6a4d7f76]" started-at="2022-07-17T15:23:03 EET" name="teardown" finished-at="2022-07-17T15:23:04 EET" duration-ms="834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

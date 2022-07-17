@@ -22,7 +22,6 @@ public class TestCase2 extends BaseTest {
 
         homePage
                 .loadWebSite()
-                .clickOnAcceptAllCookiesButton()
                 .clickOnCompanyButton();
         Assert.assertEquals(CompanyPage.getURL(),
                 "https://www.musala.com/company/");
@@ -37,7 +36,6 @@ public class TestCase2 extends BaseTest {
 
         homePage
                 .loadWebSite()
-                .clickOnAcceptAllCookiesButton()
                 .clickOnCompanyButton();
         Assert.assertTrue(companyPage.isThisSectionDisplayed("Leadership"));
     }
@@ -50,7 +48,6 @@ public class TestCase2 extends BaseTest {
         CompanyPage companyPage = new CompanyPage(getDriver());
         homePage
                 .loadWebSite()
-                .clickOnAcceptAllCookiesButton()
                 .clickOnCompanyButton()
                 .clickOnFaceBookIcon();
         Assert.assertEquals(companyPage.getURL(),

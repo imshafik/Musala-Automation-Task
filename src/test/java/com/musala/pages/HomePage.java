@@ -51,14 +51,10 @@ public class HomePage extends BasePage {
     @Step("Visit http://www.musala.com/")
     public HomePage loadWebSite() {
         driver.get(ConfigUtils.getInstance().getBaseUrl());
+        driver.manage().deleteAllCookies();
         return new HomePage(driver);
     }
-    @Step("Click on Accept Cookies")
-    public HomePage clickOnAcceptAllCookiesButton() {
 
-        acceptCookiesButton.click();
-        return new HomePage(driver);
-    }
     @Step("Scroll down ")
     public HomePage scrollDown() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
