@@ -27,10 +27,18 @@ public class ApplyPositionPage extends BasePage {
     private WebElement agreementCheckBox;
     @FindBy(css = ".btn-cf-submit")
     private WebElement sendButton;
-    @FindBy(xpath = "//*[@id='wpcf7-f880-o1']/form/p[3]/span/span")
-    private static WebElement emailValidation;
+    @FindBy(css = "#wpcf7-f880-o1 > form > p:nth-child(5) > span > span")
+    private static WebElement emailValidationelement;
+    private static By emailValidation = By.xpath("//*[@id=\"wpcf7-f880-o1\"]/form/p[3]/span/span");
+    @FindBy(className = "message-form-content")
+    private static WebElement messageForm;
+    @FindBy(className = "close-form")
+    private static WebElement closeFormButton;
+   // private static By closeFormButton =  By.className("close-form");
     @FindBy(css = ".mobile-number > .wpcf7-not-valid-tip")
     private static WebElement mobileValidation;
+
+
 
     //The Methods
     @Step("Prepare a few sets of negative data leave required field(s) empty enter e-mail with invalid format etc.)")
@@ -42,19 +50,29 @@ public class ApplyPositionPage extends BasePage {
         clickByJavascript(agreementCheckBox);
         return new ApplyPositionPage(driver);
     }
-    @Step("Click on Send Button after filling data")
+    @Step("Click on Send Button after filling data)")
     public ApplyPositionPage clickOnSendButton(){
-        waitElementToClickable(driver,sendButton);
         clickByJavascript(sendButton);
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         return new ApplyPositionPage(driver);
     }
     @Step
     public static String isMobileValidationDisplayed(){
         return mobileValidation.getText();
+
     }
-    @Step("Get the Email validation Message")
-    public static String isEmailValidationDisplayed() throws InterruptedException {
-    Thread.sleep(6000);
-    return emailValidation.getText();
-    }
+
+        @Step("Get Error Message for invalid email")
+        public static String getEmailErrorMessage() {
+            BasePage.switchWindow();
+            BasePage.presenceOfElement(driver, 60, emailValidation);
+            String TheInvalidMessage = driver.findElement(emailValidation).getText();
+            return TheInvalidMessage;
+        }
+
+
 }

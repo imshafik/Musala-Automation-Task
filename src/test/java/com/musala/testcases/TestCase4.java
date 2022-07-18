@@ -3,11 +3,9 @@ package com.musala.testcases;
 import com.musala.base.BaseTest;
 import com.musala.pages.HomePage;
 import io.qameta.allure.Description;
-import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import org.testng.annotations.Test;
 
-@Feature("Test Case 4")
 public class TestCase4 extends BaseTest {
 
     @Story("Test Case 4")
@@ -18,6 +16,7 @@ public class TestCase4 extends BaseTest {
 
         homePage
                 .loadWebSite()
+                .clickOnAcceptAllCookiesButton()
                 .clickOnCareerButton()
                 .clickOnPositionsButton()
                 .selectLocationBy("Sofia")

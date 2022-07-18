@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="617.78" tests="13" errors="0" skipped="0" failures="9">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="394.602" tests="10" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Ibrahim\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Ibrahim\AppData\Local\Temp\surefire6320989939780673399\surefirebooter-20220717151832167_3.jar C:\Users\Ibrahim\AppData\Local\Temp\surefire6320989939780673399 2022-07-17T15-18-31_853-jvmRun1 surefire-20220717151832167_1tmp surefire_0-20220717151832167_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Ibrahim\AppData\Local\Temp\surefire6420602441167624868\surefirebooter-20220718225543923_3.jar C:\Users\Ibrahim\AppData\Local\Temp\surefire6420602441167624868 2022-07-18T22-55-43_455-jvmRun1 surefire-20220718225543923_1tmp surefire_0-20220718225543923_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\testprojects\MusalaAssignment\target\test-classes;D:\testprojects\MusalaAssignment\target\classes;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-java\4.3.0\selenium-java-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-api\4.3.0\selenium-api-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.3.0\selenium-chrome-driver-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\Ibrahim\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\Ibrahim\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\Ibrahim\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Ibrahim\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Ibrahim\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Ibrahim\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Ibrahim\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Ibrahim\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.3.0\selenium-chromium-driver-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-json\4.3.0\selenium-json-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v101\4.3.0\selenium-devtools-v101-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v102\4.3.0\selenium-devtools-v102-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v103\4.3.0\selenium-devtools-v103-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.3.0\selenium-devtools-v85-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.3.0\selenium-edge-driver-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.3.0\selenium-firefox-driver-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.3.0\selenium-ie-driver-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.3.0\selenium-opera-driver-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.3.0\selenium-remote-driver-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-buffer\4.1.78.Final\netty-buffer-4.1.78.Final.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-codec-http\4.1.78.Final\netty-codec-http-4.1.78.Final.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-codec\4.1.78.Final\netty-codec-4.1.78.Final.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-handler\4.1.78.Final\netty-handler-4.1.78.Final.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-common\4.1.78.Final\netty-common-4.1.78.Final.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.78.Final\netty-transport-classes-epoll-4.1.78.Final.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.78.Final\netty-transport-classes-kqueue-4.1.78.Final.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-transport-native-epoll\4.1.78.Final\netty-transport-native-epoll-4.1.78.Final.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.78.Final\netty-transport-native-kqueue-4.1.78.Final.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.78.Final\netty-transport-native-unix-common-4.1.78.Final.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-transport\4.1.78.Final\netty-transport-4.1.78.Final.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-resolver\4.1.78.Final\netty-resolver-4.1.78.Final.jar;C:\Users\Ibrahim\.m2\repository\io\opentelemetry\opentelemetry-api\1.15.0\opentelemetry-api-1.15.0.jar;C:\Users\Ibrahim\.m2\repository\io\opentelemetry\opentelemetry-context\1.15.0\opentelemetry-context-1.15.0.jar;C:\Users\Ibrahim\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.15.0\opentelemetry-exporter-logging-1.15.0.jar;C:\Users\Ibrahim\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.15.0\opentelemetry-sdk-metrics-1.15.0.jar;C:\Users\Ibrahim\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.15.0-alpha\opentelemetry-sdk-logs-1.15.0-alpha.jar;C:\Users\Ibrahim\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.15.0\opentelemetry-sdk-common-1.15.0.jar;C:\Users\Ibrahim\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.15.0\opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar;C:\Users\Ibrahim\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.15.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar;C:\Users\Ibrahim\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.15.0\opentelemetry-sdk-trace-1.15.0.jar;C:\Users\Ibrahim\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.15.0\opentelemetry-sdk-1.15.0.jar;C:\Users\Ibrahim\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.15.0-alpha\opentelemetry-semconv-1.15.0-alpha.jar;C:\Users\Ibrahim\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\Ibrahim\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\Ibrahim\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ibrahim\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\Ibrahim\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\Ibrahim\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\Ibrahim\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Ibrahim\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Ibrahim\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-http\4.3.0\selenium-http-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.3.0\selenium-safari-driver-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\org\seleniumhq\selenium\selenium-support\4.3.0\selenium-support-4.3.0.jar;C:\Users\Ibrahim\.m2\repository\io\github\bonigarcia\webdrivermanager\5.2.1\webdrivermanager-5.2.1.jar;C:\Users\Ibrahim\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\Ibrahim\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Ibrahim\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Ibrahim\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Ibrahim\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Ibrahim\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Ibrahim\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Ibrahim\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Ibrahim\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Ibrahim\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Ibrahim\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Ibrahim\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Ibrahim\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Ibrahim\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Ibrahim\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Ibrahim\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\Ibrahim\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\Ibrahim\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\Ibrahim\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Ibrahim\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Ibrahim\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Ibrahim\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Ibrahim\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\Ibrahim\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\Ibrahim\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\Ibrahim\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Ibrahim\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Ibrahim\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\Ibrahim\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\Ibrahim\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Ibrahim\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Ibrahim\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Ibrahim\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\Ibrahim\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Ibrahim\.m2\repository\io\qameta\allure\allure-testng\2.18.1\allure-testng-2.18.1.jar;C:\Users\Ibrahim\.m2\repository\io\qameta\allure\allure-java-commons\2.18.1\allure-java-commons-2.18.1.jar;C:\Users\Ibrahim\.m2\repository\io\qameta\allure\allure-model\2.18.1\allure-model-2.18.1.jar;C:\Users\Ibrahim\.m2\repository\io\qameta\allure\allure-test-filter\2.18.1\allure-test-filter-2.18.1.jar;C:\Users\Ibrahim\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.18.0\log4j-to-slf4j-2.18.0.jar;C:\Users\Ibrahim\.m2\repository\org\slf4j\slf4j-api\2.0.0-alpha7\slf4j-api-2.0.0-alpha7.jar;C:\Users\Ibrahim\.m2\repository\org\slf4j\slf4j-nop\2.0.0-alpha7\slf4j-nop-2.0.0-alpha7.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Ibrahim\AppData\Local\Temp\surefire6320989939780673399\surefirebooter-20220717151832167_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Ibrahim\AppData\Local\Temp\surefire6420602441167624868\surefirebooter-20220718225543923_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="14.0.1+7"/>
@@ -56,508 +56,181 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="verifyCompanyPageURL" classname="com.musala.testcases.TestCase2" time="34.524">
-    <failure message="unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;&#10;System info: host: &apos;DESKTOP-BUGJDR2&apos;, ip: &apos;15.15.15.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [897ae097c7c2af4eefc64aebf971a019, executeScript {script=arguments[0].click(), args=[{ELEMENT=462080df-01e1-45c5-9c11-99088dd5dfe5, element-6066-11e4-a52e-4f735466cecf=462080df-01e1-45c5-9c11-99088dd5dfe5}]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54773}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54773/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 897ae097c7c2af4eefc64aebf971a019" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: unexpected command response
-  (Session info: chrome=103.0.5060.114)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [897ae097c7c2af4eefc64aebf971a019, executeScript {script=arguments[0].click(), args=[{ELEMENT=462080df-01e1-45c5-9c11-99088dd5dfe5, element-6066-11e4-a52e-4f735466cecf=462080df-01e1-45c5-9c11-99088dd5dfe5}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54773}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54773/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 897ae097c7c2af4eefc64aebf971a019
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:503)
-	at com.musala.base.BasePage.clickByJavascript(BasePage.java:26)
-	at com.musala.pages.HomePage.clickOnCompanyButton(HomePage.java:115)
-	at com.musala.testcases.TestCase2.verifyCompanyPageURL(TestCase2.java:26)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 59883
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started sSutccaersstfiunlgly .Ch
-romeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55870
+  <testcase name="shouldBeAbleToValidateEmail[test..@@gmail...com..](1)" classname="com.musala.testcases.TestCase1" time="31.966">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 49528
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2022 3:18:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 18, 2022 10:55:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 17, 2022 3:18:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Jul 17, 2022 3:18:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 103
-Jul 17, 2022 3:18:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 18, 2022 10:55:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 ]]></system-err>
   </testcase>
-  <testcase name="verifyLeadershipSection" classname="com.musala.testcases.TestCase2" time="125.297">
-    <failure message="element not interactable&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;&#10;System info: host: &apos;DESKTOP-BUGJDR2&apos;, ip: &apos;15.15.15.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d51ce0cf949e2e876a82aec30c422deb, clickElement {id=42dc61ae-0fe7-4a56-badd-4ec3391c7b58}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54882/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (d51ce0cf949e2e876a82aec30c422deb)] -&gt; id: wt-cli-accept-all-btn]&#10;Session ID: d51ce0cf949e2e876a82aec30c422deb" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: chrome=103.0.5060.114)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d51ce0cf949e2e876a82aec30c422deb, clickElement {id=42dc61ae-0fe7-4a56-badd-4ec3391c7b58}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54882}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54882/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (d51ce0cf949e2e876a82aec30c422deb)] -> id: wt-cli-accept-all-btn]
-Session ID: d51ce0cf949e2e876a82aec30c422deb
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at com.musala.pages.HomePage.clickOnAcceptAllCookiesButton(HomePage.java:59)
-	at com.musala.testcases.TestCase2.verifyLeadershipSection(TestCase2.java:40)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 62554
+  <testcase name="shouldBeAbleToValidateEmail[testtest](2)" classname="com.musala.testcases.TestCase1" time="31.207">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 51762
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64711
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 17, 2022 3:19:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 18, 2022 10:56:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 17, 2022 3:19:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 103
-Jul 17, 2022 3:19:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Jul 17, 2022 3:19:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 18, 2022 10:56:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 ]]></system-err>
   </testcase>
-  <testcase name="verifyFBURLAndPorfileImg" classname="com.musala.testcases.TestCase2" time="26.194">
-    <failure message="invalid session id&#10;Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;&#10;System info: host: &apos;DESKTOP-BUGJDR2&apos;, ip: &apos;15.15.15.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f7a393252350fdc82f2576b326eb4300, isElementDisplayed {id=338136ee-5bd0-4de8-85f8-d2c24307df4c}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55158/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (f7a393252350fdc82f2576b326eb4300)] -&gt; css selector: #content &gt; div.entry-header &gt; div &gt; div.image-overlay &gt; div &gt; h1]&#10;Session ID: f7a393252350fdc82f2576b326eb4300" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
-invalid session id
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f7a393252350fdc82f2576b326eb4300, isElementDisplayed {id=338136ee-5bd0-4de8-85f8-d2c24307df4c}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55158/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (f7a393252350fdc82f2576b326eb4300)] -> css selector: #content > div.entry-header > div > div.image-overlay > div > h1]
-Session ID: f7a393252350fdc82f2576b326eb4300
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	at com.musala.base.BasePage.visibilityOfElement(BasePage.java:36)
-	at com.musala.pages.HomePage.clickOnCompanyButton(HomePage.java:116)
-	at com.musala.testcases.TestCase2.verifyFBURLAndPorfileImg(TestCase2.java:54)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-]]></failure>
-  </testcase>
-  <testcase name="ShouldBeAbleToValidateEmail[test..@@gmail...com..](1)" classname="com.musala.testcases.TestCase1" time="39.167">
-    <failure message="invalid session id&#10;Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;&#10;System info: host: &apos;DESKTOP-BUGJDR2&apos;, ip: &apos;15.15.15.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [897ae097c7c2af4eefc64aebf971a019, clearElement {id=75e3d2fa-066b-4936-9f4a-ba0145eaff06}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54773}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54773/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (897ae097c7c2af4eefc64aebf971a019)] -&gt; name: your-name]&#10;Session ID: 897ae097c7c2af4eefc64aebf971a019" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
-invalid session id
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [897ae097c7c2af4eefc64aebf971a019, clearElement {id=75e3d2fa-066b-4936-9f4a-ba0145eaff06}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54773}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54773/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (897ae097c7c2af4eefc64aebf971a019)] -> name: your-name]
-Session ID: 897ae097c7c2af4eefc64aebf971a019
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:132)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy21.clear(Unknown Source)
-	at com.musala.pages.HomePage.fillNameData(HomePage.java:70)
-	at com.musala.testcases.TestCase1.ShouldBeAbleToValidateEmail(TestCase1.java:34)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-]]></failure>
-  </testcase>
-  <testcase name="ShouldBeAbleToValidateEmail[testtest](2)" classname="com.musala.testcases.TestCase1" time="8.483">
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55252
+  <testcase name="shouldBeAbleToValidateEmail[@gmail.com](3)" classname="com.musala.testcases.TestCase1" time="30.984">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 65360
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2022 3:21:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 18, 2022 10:56:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 17, 2022 3:21:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 18, 2022 10:56:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 ]]></system-err>
   </testcase>
-  <testcase name="ShouldBeAbleToValidateEmail[@gmail.com](3)" classname="com.musala.testcases.TestCase1" time="26.102">
-    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=103.0.5060.114)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference&#10;Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;&#10;System info: host: &apos;DESKTOP-BUGJDR2&apos;, ip: &apos;15.15.15.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f7a393252350fdc82f2576b326eb4300, sendKeysToElement {id=f26ad71b-5305-4000-bfe0-d90457dfba17, value=[Ljava.lang.CharSequence;@55b823b}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55158/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (f7a393252350fdc82f2576b326eb4300)] -&gt; name: your-subject]&#10;Session ID: f7a393252350fdc82f2576b326eb4300" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
-stale element reference: element is not attached to the page document
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f7a393252350fdc82f2576b326eb4300, sendKeysToElement {id=f26ad71b-5305-4000-bfe0-d90457dfba17, value=[Ljava.lang.CharSequence;@55b823b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55158}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55158/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (f7a393252350fdc82f2576b326eb4300)] -> name: your-subject]
-Session ID: f7a393252350fdc82f2576b326eb4300
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy21.sendKeys(Unknown Source)
-	at com.musala.pages.HomePage.fillSubject(HomePage.java:83)
-	at com.musala.testcases.TestCase1.ShouldBeAbleToValidateEmail(TestCase1.java:36)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58414
+  <testcase name="shouldBeAbleToValidateEmail[testtest@gmailcom.](4)" classname="com.musala.testcases.TestCase1" time="31.745">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 53023
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2022 3:21:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 18, 2022 10:57:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 17, 2022 3:21:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 18, 2022 10:57:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 ]]></system-err>
   </testcase>
-  <testcase name="ShouldBeAbleToValidateEmail[testtest@gmailcom.](4)" classname="com.musala.testcases.TestCase1" time="13.865">
-    <failure message="disconnected: Unable to receive message from renderer&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;&#10;System info: host: &apos;DESKTOP-BUGJDR2&apos;, ip: &apos;15.15.15.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [58744d5ab8116d7cc06b5b1662855dda, get {url=http://www.musala.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55244/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 58744d5ab8116d7cc06b5b1662855dda" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-disconnected: Unable to receive message from renderer
-  (Session info: chrome=103.0.5060.114)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [58744d5ab8116d7cc06b5b1662855dda, get {url=http://www.musala.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55244/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 58744d5ab8116d7cc06b5b1662855dda
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
-	at com.musala.pages.HomePage.loadWebSite(HomePage.java:53)
-	at com.musala.testcases.TestCase1.ShouldBeAbleToValidateEmail(TestCase1.java:30)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64290
+  <testcase name="shouldBeAbleToValidateEmail[testtest.com](5)" classname="com.musala.testcases.TestCase1" time="31.137">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 56262
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 56559
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 17, 2022 3:22:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 18, 2022 10:58:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 17, 2022 3:22:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 103
-Jul 17, 2022 3:22:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Jul 17, 2022 3:22:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 103
-[1658064139.324][SEVERE]: Unable to receive message from renderer
-]]></system-err>
-  </testcase>
-  <testcase name="ShouldBeAbleToValidateEmail[testtest.com](5)" classname="com.musala.testcases.TestCase1" time="0.613">
-    <failure message="unknown error: net::ERR_INTERNET_DISCONNECTED&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;&#10;System info: host: &apos;DESKTOP-BUGJDR2&apos;, ip: &apos;15.15.15.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [17316b687b683eecfdf74180b5229dff, get {url=http://www.musala.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55332/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 17316b687b683eecfdf74180b5229dff" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
-unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=103.0.5060.114)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [17316b687b683eecfdf74180b5229dff, get {url=http://www.musala.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55332/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 17316b687b683eecfdf74180b5229dff
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
-	at com.musala.pages.HomePage.loadWebSite(HomePage.java:53)
-	at com.musala.testcases.TestCase1.ShouldBeAbleToValidateEmail(TestCase1.java:30)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52916
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 17, 2022 3:23:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Jul 17, 2022 3:23:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 18, 2022 10:58:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 ]]></system-err>
   </testcase>
-  <testcase name="filterAndPrintAvailablePositionsByCity" classname="com.musala.testcases.TestCase4" time="106.988">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#wt\-cli\-accept\-all\-btn&quot;}&#10;  (Session info: chrome=103.0.5060.114)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;&#10;System info: host: &apos;DESKTOP-BUGJDR2&apos;, ip: &apos;15.15.15.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [79eb5553b948eddde1b6f3955810ecd0, findElement {using=id, value=wt-cli-accept-all-btn}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55349/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 79eb5553b948eddde1b6f3955810ecd0" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#wt\-cli\-accept\-all\-btn"}
-  (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [79eb5553b948eddde1b6f3955810ecd0, findElement {using=id, value=wt-cli-accept-all-btn}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55349}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55349/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 79eb5553b948eddde1b6f3955810ecd0
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy21.click(Unknown Source)
-	at com.musala.pages.HomePage.clickOnAcceptAllCookiesButton(HomePage.java:59)
-	at com.musala.testcases.TestCase4.filterAndPrintAvailablePositionsByCity(TestCase4.java:21)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 56162
+  <testcase name="filterAndPrintAvailablePositionsByCity" classname="com.musala.testcases.TestCase4" time="55.934">
+    <system-out><![CDATA[Sofia
+Position :  Marketing & PR Specialist
+More info: https://www.musala.com/job/marketing-pr-specialist/
+Position :  Photo and Video Production Specialist
+More info: https://www.musala.com/job/photo-and-video-production-specialist/
+Position :  Professional Services Associate
+More info: https://www.musala.com/job/professional-services-associate/
+Position :  Senior Java Developer
+More info: https://www.musala.com/job/senior-java-developer/
+Position :  Automation QA Engineer
+More info: https://www.musala.com/job/experienced-automation-qa-engineer/
+Position :  Full-Stack Developer
+More info: https://www.musala.com/job/full-stack-developer-2/
+Position :  JavaScript Developer
+More info: https://www.musala.com/job/javascript-developer/
+Position :  Senior Angular Developer
+More info: https://www.musala.com/job/senior-angular-developer-2/
+Position :  DevOps Engineer
+More info: https://www.musala.com/job/devops-engineer/
+Position :  .NET Developer
+More info: https://www.musala.com/job/net-developer/
+Position :  Software Engineer Virtual Infrastructure Integration
+More info: https://www.musala.com/job/software-engineer-virtual-infrastructure-integration/
+Position :  English Teacher
+More info: https://www.musala.com/job/english-teacher/
+Position :  Accounting Assistant
+More info: https://www.musala.com/job/accounting-assistant/
+Position :  Legal Compliance Assistant
+More info: https://www.musala.com/job/legal-compliance-assistant/
+Position :  QA Engineer (Manual Testing)
+More info: https://www.musala.com/job/qa-engineer-manual-testing/
+Position :  People Development Lead
+More info: https://www.musala.com/job/people-development-lead/
+Position :  OS and Application Administrator
+More info: https://www.musala.com/job/os-and-application-administrator/
+Position :  React Developer
+More info: https://www.musala.com/job/react-developer/
+--------------------------------------
+Skopje
+Position :  Marketing & PR Specialist
+More info: https://www.musala.com/job/marketing-pr-specialist/
+Position :  Senior Java Developer
+More info: https://www.musala.com/job/senior-java-developer/
+Position :  Automation QA Engineer
+More info: https://www.musala.com/job/experienced-automation-qa-engineer/
+Position :  Full-Stack Developer
+More info: https://www.musala.com/job/full-stack-developer-2/
+Position :  JavaScript Developer
+More info: https://www.musala.com/job/javascript-developer/
+Position :  Senior Angular Developer
+More info: https://www.musala.com/job/senior-angular-developer-2/
+Position :  DevOps Engineer
+More info: https://www.musala.com/job/devops-engineer/
+Position :  .NET Developer
+More info: https://www.musala.com/job/net-developer/
+Position :  Software Engineer Virtual Infrastructure Integration
+More info: https://www.musala.com/job/software-engineer-virtual-infrastructure-integration/
+Position :  QA Engineer (Manual Testing)
+More info: https://www.musala.com/job/qa-engineer-manual-testing/
+Position :  OS and Application Administrator
+More info: https://www.musala.com/job/os-and-application-administrator/
+Position :  React Developer
+More info: https://www.musala.com/job/react-developer/
+--------------------------------------
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 65296
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2022 3:23:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 18, 2022 10:58:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 17, 2022 3:23:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 18, 2022 10:58:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 ]]></system-err>
   </testcase>
-  <testcase name="IsJoinUsPageOpened" classname="com.musala.testcases.TestCase3" time="197.474">
-    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: #content &gt; div.entry-header &gt; div &gt; div.image-overlay &gt; div &gt; h1&apos; (tried for 100 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: #content > div.entry-header > div > div.image-overlay > div > h1' (tried for 100 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
-	at com.musala.base.BasePage.visibilityOfElement(BasePage.java:36)
-	at com.musala.pages.HomePage.clickOnCareerButton(HomePage.java:125)
-	at com.musala.testcases.TestCase3.IsJoinUsPageOpened(TestCase3.java:25)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#content > div.entry-header > div > div.image-overlay > div > h1"}
+  <testcase name="verifyCompanyPageURLandLeadershipSection" classname="com.musala.testcases.TestCase2" time="27.827">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 59826
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 18, 2022 10:59:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 18, 2022 10:59:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="verifyFBurlAndPorfileImg" classname="com.musala.testcases.TestCase2" time="33.04">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 55577
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 18, 2022 11:01:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 18, 2022 11:01:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="verifyJoinUsPageAndMainSections" classname="com.musala.testcases.TestCase3" time="55.289">
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58398
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 18, 2022 11:00:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 18, 2022 11:00:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 103
+]]></system-err>
+  </testcase>
+  <testcase name="verifyApplyErrorMessagesAreShown" classname="com.musala.testcases.TestCase3" time="39.268">
+    <failure message="unknown error: cannot determine loading status&#10;from unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;&#10;System info: host: &apos;DESKTOP-BUGJDR2&apos;, ip: &apos;192.168.1.12&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [dd1c76a895e5811ddcce1863035f273a, findElement {using=xpath, value=//*[@id=&quot;wpcf7-f880-o1&quot;]/form/p[3]/span/span}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62172}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62172/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: dd1c76a895e5811ddcce1863035f273a" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: cannot determine loading status
+from unknown error: unexpected command response
   (Session info: chrome=103.0.5060.114)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-BUGJDR2', ip: '15.15.15.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+System info: host: 'DESKTOP-BUGJDR2', ip: '192.168.1.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [528df151efe7df424cedb87fe16e44a5, findElement {using=css selector, value=#content > div.entry-header > div > div.image-overlay > div > h1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55246}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55246/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 528df151efe7df424cedb87fe16e44a5
+Command: [dd1c76a895e5811ddcce1863035f273a, findElement {using=xpath, value=//*[@id="wpcf7-f880-o1"]/form/p[3]/span/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Ibrahim\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62172}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62172/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dd1c76a895e5811ddcce1863035f273a
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -574,47 +247,35 @@ Session ID: 528df151efe7df424cedb87fe16e44a5
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
-	... 18 more
+	at com.musala.base.BasePage.presenceOfElement(BasePage.java:34)
+	at com.musala.pages.ApplyPositionPage.getEmailErrorMessage(ApplyPositionPage.java:67)
+	at com.musala.testcases.TestCase3.verifyApplyErrorMessagesAreShown(TestCase3.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
 ]]></failure>
-  </testcase>
-  <testcase name="verifyMainSectionsDisplayed" classname="com.musala.testcases.TestCase3" time="87.506">
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58151
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 61586
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2022 3:26:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 18, 2022 11:01:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 17, 2022 3:26:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 103
-]]></system-err>
-  </testcase>
-  <testcase name="verifyApplyButtonIsPresent" classname="com.musala.testcases.TestCase3" time="18.827">
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58100
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 17, 2022 3:27:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Jul 17, 2022 3:27:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found exact CDP implementation for version 103
-]]></system-err>
-  </testcase>
-  <testcase name="verifyApplyErrorMessagesAreShown" classname="com.musala.testcases.TestCase3" time="34.5">
-    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 52573
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Jul 17, 2022 3:28:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected upstream dialect: W3C
-Jul 17, 2022 3:28:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 18, 2022 11:01:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 ]]></system-err>
   </testcase>

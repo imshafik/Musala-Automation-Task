@@ -24,10 +24,11 @@ public class TestCase1 extends BaseTest {
     @Story("Test Case 1")
     @Description("Verify that error message The e-mail address entered is invalid appears")
     @Test(dataProvider="ExcelData" , description = "Verify that error message The e-mail address entered is invalid appears")
-    public void ShouldBeAbleToValidateEmail(String mail) throws IOException, InterruptedException {
+    public void shouldBeAbleToValidateEmail(String mail) throws InterruptedException {
         HomePage homePage = new HomePage(getDriver());
         homePage
                 .loadWebSite()
+                .clickOnAcceptAllCookiesButton()
                 .scrollDown()
                 .clickOnContactUsButton()
                 .fillNameData("Ibrahim Shafik")
@@ -39,5 +40,3 @@ public class TestCase1 extends BaseTest {
                                 "The e-mail address entered is invalid.");
     }
 }
-
-

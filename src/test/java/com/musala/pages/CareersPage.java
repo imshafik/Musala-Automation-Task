@@ -20,7 +20,7 @@ public class CareersPage extends BasePage {
 
     //The Elements
     @FindBy(css = "[data-alt='Check our open positions']")
-    WebElement checkOpenPositionsButton;
+    private WebElement checkOpenPositionsButton;
     @FindBys({
             @FindBy(className = "front"),
             @FindBy(tagName = "h2")})
@@ -29,11 +29,8 @@ public class CareersPage extends BasePage {
             @FindBy(className = "card-container"),
             @FindBy(tagName = "a")})
     public List<WebElement> cardsLinks;
-    //@FindBy(css = "[class='card-jobsHot__title']")
-    //WebElement cardTitle;
-
-    @FindBy(css = ".btn-apply")
-    WebElement applyButton;
+       @FindBy(css = ".btn-apply")
+    private WebElement applyButton;
 
 
     //The Methods
@@ -65,13 +62,7 @@ public class CareersPage extends BasePage {
     @Step("Scroll down ")
     public CareersPage scrollDown() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-        return new CareersPage(driver);
-    }
-    @Step("Scroll Down ")
-    public CareersPage scroll() {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,600)", "");
+       js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
         return new CareersPage(driver);
     }
     @Step("Verify that 4 main sections are shown: General Description, Requirements, Responsibilities, What we offer")

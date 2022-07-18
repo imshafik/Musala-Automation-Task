@@ -22,8 +22,8 @@ public class DriverFactory {
             default:
                 throw new RuntimeException("The browser in not supported");
         }
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(100));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
         driver.manage().window().maximize();
         return driver;
     }
